@@ -22,6 +22,7 @@ gem 'uglifier'
 gem 'unicorn'
 gem "haml"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'tinymce-rails'
 
 
 group :development do
