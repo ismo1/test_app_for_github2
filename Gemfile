@@ -20,10 +20,14 @@ gem 'simple_form'
 gem 'title'
 gem 'uglifier'
 gem 'unicorn'
+gem "haml"
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'meta_request' 
   gem 'foreman'
   gem 'spring'
   gem 'spring-commands-rspec'
